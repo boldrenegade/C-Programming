@@ -5,8 +5,7 @@ void main()
    printf("Input Value of terms : ");
    scanf("%d",&n);
    printf("\nThe first %d natural numbers are:\n",n);
-   for(i=1;i<=n;i++)
-   {
+   for(i=1;i<=n;i++){
      printf("%d ",i);
      sum+=i;
    }
